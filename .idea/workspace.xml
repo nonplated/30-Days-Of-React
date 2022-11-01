@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e9efe68-b542-43d8-986b-0a91aa8385ba" name="Changes" comment="installed create-react-app">
-      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/HexaColor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/hexaColor.js" afterDir="false" />
+    <list default="true" id="7e9efe68-b542-43d8-986b-0a91aa8385ba" name="Changes" comment="Toggle Dark/Light mode works">
+      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/code/30-days-of-react&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "true",
+    "last_opened_file_path": "E:/code/30-days-of-react",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code\30-days-of-react\solutions\30-days-of-react\src\images" />
@@ -63,7 +66,8 @@
       <updated>1666881631504</updated>
       <workItem from="1666881632814" duration="1145000" />
       <workItem from="1666948296986" duration="5753000" />
-      <workItem from="1667026363749" duration="4640000" />
+      <workItem from="1667026363749" duration="5187000" />
+      <workItem from="1667320090669" duration="2195000" />
     </task>
     <task id="LOCAL-00001" summary="modules reminded, before creating first app">
       <created>1666950980308</created>
@@ -79,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666951376470</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HexaColor component inline app">
+      <created>1667037657075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667037657075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,6 +122,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="modules reminded, before creating first app" />
     <MESSAGE value="installed create-react-app" />
-    <option name="LAST_COMMIT_MESSAGE" value="installed create-react-app" />
+    <MESSAGE value="HexaColor component inline app" />
+    <MESSAGE value="Toggle Dark/Light mode works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toggle Dark/Light mode works" />
   </component>
 </project>
