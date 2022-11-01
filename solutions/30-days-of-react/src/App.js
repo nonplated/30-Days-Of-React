@@ -2,6 +2,10 @@ import logo from './images/logo.svg';
 import './App.css';
 import React, {useState} from "react";
 import ToggleDisplayMode from './components/ToggleDisplayMode'
+import { BrowserRouter as Router, NavLink, Routes, Route } from "react-router-dom";
+import Calculator from "./components/calculator/Calculator";
+import CalculatorClass from "./components/calculator_class/Calculator";
+import Clock from "./components/Clock"
 
 const randomHex = () => {
   let str = '0123456789abcdef'
@@ -60,24 +64,53 @@ const LogoContainer = () => {
   )
 }
 
+const Navbar = ({ username }) => (
+    <ul className="Menu">
+        <li>
+            <NavLink to='/Calculator'>Calculator</NavLink>
+        </li>
+        <li>
+            <NavLink to='/Clock'>Clock</NavLink>
+        </li>
+        <li>
+            <NavLink to='/HexaContainer'>HexaContainer</NavLink>
+        </li>
+        <li>
+            <NavLink to='/LogoContainer'>LogoContainer</NavLink>
+        </li>
+        <li>
+            <NavLink to={`/user/${username}`}>User</NavLink>
+        </li>
+    </ul>
+)
+
+
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <menu className="Menu">
-          <a href="asdcasd">ASDCASD</a>
-          <a href="asdcasd">ASDCASD</a>
-          <a href="asdcasd">ASDCASD</a>
-        </menu>
-        <tools className="Tools">
-          <ToggleDisplayMode />
-        </tools>
-      </header>
-      <main className="Main">
-        <LogoContainer />
-        <HexaContainer />
-      </main>
-    </div>
+      <Router>
+            <div className="App">
+              <header className="App-header">
+                <div>
+                    <Navbar username="maciek" />
+                </div>
+                <div className="Tools">
+                  <ToggleDisplayMode />
+                </div>
+              </header>
+
+              <main className="Main">
+                  <Routes>
+                      <Route path='/LogoContainer' element={<LogoContainer/>} />
+                      <Route path='/HexaContainer' element={<HexaContainer/>} />
+                      <Route path='/Calculator' element={<CalculatorClass/>} />
+                      <Route path='/Clock' element={<Clock/>} />
+                      <Route path='/' element={<CalculatorClass/>} />
+                  </Routes>
+              </main>
+            </div>
+      </Router>
   );
 }
 

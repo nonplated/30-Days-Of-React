@@ -36,9 +36,17 @@ html[mode=dark] {
   padding: 10px;
 }
 
-.App-header .Menu {
+.App-header ul.Menu {
   display: flex;
   flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.App-header ul.Menu li {
+  margin-right: 10px;
 }
 
 .App-header .Tools {
@@ -58,3 +66,5 @@ html[mode=dark] {
     transform: rotate(360deg);
   }
 }
+
+
