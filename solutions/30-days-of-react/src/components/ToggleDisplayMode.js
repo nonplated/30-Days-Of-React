@@ -6,14 +6,14 @@ const ToggleDisplayMode = () => {
 
     // let isDarkMode = false;
     const toggleDarkMode = () => {
-        let nextIsDarkMode = !isDarkMode;
-        document.querySelector('html').setAttribute('mode', (nextIsDarkMode ? 'dark' : '') );
-        setDarkMode(nextIsDarkMode)
+        // let nextIsDarkMode = !isDarkMode;
+        document.querySelector('html').setAttribute('mode', (!isDarkMode ? 'dark' : '') );
+        setDarkMode(!isDarkMode)
     }
 
     return (
         <div>
-            <button onClick={()=>toggleDarkMode()}>BUTTON DARK/LIGHT MODE: {(isDarkMode ? 'TO LIGHT' : 'TO DARK')}</button>
+            <button onClick={()=>toggleDarkMode()}>TOGGLE MODE TO: {(isDarkMode ? 'LIGHT' : 'DARK')}</button>
         </div>
     )
 }

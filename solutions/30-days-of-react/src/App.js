@@ -1,6 +1,6 @@
 import logo from './images/logo.svg';
 import './App.css';
-import React from "react";
+import React, {useState} from "react";
 import ToggleDisplayMode from './components/ToggleDisplayMode'
 
 const randomHex = () => {
@@ -22,6 +22,17 @@ const HexaColor = () => {
     padding: '5px',
   }
   return (<div style={hexaStyles}><center style={{width:'100%'}}>{randomHex()}</center></div>)
+}
+
+const HexaContainer =() => {
+  const [ clickNumber, makeClick ] = useState(0)
+  return (
+      <div>
+        <button onClick={()=>makeClick(clickNumber+1)}>RELOAD COLORS</button>
+        <HexaColor />
+        <HexaColor />
+      </div>
+  )
 }
 
 const LogoImage = ({settings}) => {
@@ -53,11 +64,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <ToggleDisplayMode />
-        <LogoContainer />
-        <HexaColor />
-        <HexaColor />
+        <menu className="Menu">
+          <a href="asdcasd">ASDCASD</a>
+          <a href="asdcasd">ASDCASD</a>
+          <a href="asdcasd">ASDCASD</a>
+        </menu>
+        <tools className="Tools">
+          <ToggleDisplayMode />
+        </tools>
       </header>
+      <main className="Main">
+        <LogoContainer />
+        <HexaContainer />
+      </main>
     </div>
   );
 }

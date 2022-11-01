@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e9efe68-b542-43d8-986b-0a91aa8385ba" name="Changes" comment="Toggle Dark/Light mode works">
-      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +65,7 @@
       <workItem from="1666881632814" duration="1145000" />
       <workItem from="1666948296986" duration="5753000" />
       <workItem from="1667026363749" duration="5187000" />
-      <workItem from="1667320090669" duration="2195000" />
+      <workItem from="1667320090669" duration="3750000" />
     </task>
     <task id="LOCAL-00001" summary="modules reminded, before creating first app">
       <created>1666950980308</created>
@@ -90,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667037657075</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Toggle Dark/Light mode works">
+      <created>1667322317371</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667322317371</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
