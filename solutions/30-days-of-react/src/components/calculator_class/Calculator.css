@@ -7,6 +7,7 @@
     padding: 20px 20px 50px 20px;
     border-radius: 6px;
     margin: 0 auto;
+    box-shadow: 12px 12px 1px 1px #e6394660;
 }
 
 .Calculator .Header {
@@ -42,17 +43,18 @@
     margin-bottom: 25px;
     padding: 20px 0;
     border-radius: 3px;
+    box-shadow: inset 4px 4px 0px 1px #457B9D60;
 }
 .Calculator .Display .DisplayInput {
     text-align: left;
-    padding: 0 10px;
+    padding: 0 20px;
     font-size: 1.2rem;
     overflow: hidden;
 }
 .Calculator .Display .DisplayOutput {
     text-align: right;
     font-weight: 500;
-    padding: 0 10px;
+    padding: 0 20px;
     font-size: 1.9rem;
     overflow: hidden;
 }

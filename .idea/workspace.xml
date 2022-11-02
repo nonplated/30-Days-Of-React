@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7e9efe68-b542-43d8-986b-0a91aa8385ba" name="Changes" comment="Toggle Dark/Light mode works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10_React_Project_Folder_Structure/10_react_project_folder_structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/10_React_Project_Folder_Structure/10_react_project_folder_structure.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator_class/Calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator_class/Calculator.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,20 +34,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "true",
-    "last_opened_file_path": "E:/code/30-days-of-react",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "vcs.Git",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/code/30-days-of-react&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\code\30-days-of-react\solutions\30-days-of-react\src\images" />
@@ -65,7 +64,9 @@
       <workItem from="1666881632814" duration="1145000" />
       <workItem from="1666948296986" duration="5753000" />
       <workItem from="1667026363749" duration="5187000" />
-      <workItem from="1667320090669" duration="3750000" />
+      <workItem from="1667320090669" duration="10259000" />
+      <workItem from="1667331791734" duration="7129000" />
+      <workItem from="1667407676501" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="modules reminded, before creating first app">
       <created>1666950980308</created>
