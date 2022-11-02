@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="7e9efe68-b542-43d8-986b-0a91aa8385ba" name="Changes" comment="Toggle Dark/Light mode works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_React_Project_Folder_Structure/10_react_project_folder_structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/10_React_Project_Folder_Structure/10_react_project_folder_structure.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator_class/Calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator_class/Calculator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <workItem from="1667026363749" duration="5187000" />
       <workItem from="1667320090669" duration="10259000" />
       <workItem from="1667331791734" duration="7129000" />
-      <workItem from="1667407676501" duration="1147000" />
+      <workItem from="1667407676501" duration="1661000" />
     </task>
     <task id="LOCAL-00001" summary="modules reminded, before creating first app">
       <created>1666950980308</created>
