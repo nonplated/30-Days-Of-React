@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e9efe68-b542-43d8-986b-0a91aa8385ba" name="Changes" comment="Toggle Dark/Light mode works">
-      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/reducers/counter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/reducers/isLogged.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/reducers/counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/reducers/counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/reducers/isLogged.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/reducers/isLogged.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/ToggleDisplayMode.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator/Calculator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator_class/Calculator.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/components/calculator_class/Calculator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/solutions/30-days-of-react/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +56,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\code\30-days-of-react\solutions\30-days-of-react\src" />
       <recent name="E:\code\30-days-of-react\solutions\30-days-of-react\src\images" />
     </key>
   </component>
@@ -67,7 +73,7 @@
       <workItem from="1667026363749" duration="5187000" />
       <workItem from="1667320090669" duration="10259000" />
       <workItem from="1667331791734" duration="7129000" />
-      <workItem from="1667407676501" duration="3580000" />
+      <workItem from="1667407676501" duration="5147000" />
     </task>
     <task id="LOCAL-00001" summary="modules reminded, before creating first app">
       <created>1666950980308</created>

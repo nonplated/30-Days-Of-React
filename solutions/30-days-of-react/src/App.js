@@ -6,6 +6,7 @@ import { BrowserRouter as Router, NavLink, Routes, Route } from "react-router-do
 import Calculator from "./components/calculator/Calculator";
 import CalculatorClass from "./components/calculator_class/Calculator";
 import Clock from "./components/Clock"
+import { useSelector} from "react-redux";
 
 const randomHex = () => {
   let str = '0123456789abcdef'
@@ -64,7 +65,9 @@ const LogoContainer = () => {
   )
 }
 
-const Navbar = ({ username }) => (
+const Navbar = ({ username }) => {
+    const counter = useSelector(state=>state.counter)
+    return (
     <ul className="Menu">
         <li>
             <NavLink to='/Calculator'>Calculator</NavLink>
@@ -81,8 +84,10 @@ const Navbar = ({ username }) => (
         <li>
             <NavLink to={`/user/${username}`}>User</NavLink>
         </li>
+        <div>Selector: {counter}</div>
     </ul>
-)
+    )
+}
 
 
 

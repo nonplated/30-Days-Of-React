@@ -2,6 +2,8 @@ import React, {Component} from 'react'
 import CalculatorButton from "../calculator_class/CalculatorButton"
 import CalculatorDisplay from "../calculator_class/CalculatorDisplay";
 import './Calculator.css'
+import {useDispatch} from "react-redux";
+import {increment} from "../../actions";
 
 export default class Calculator extends Component {
 
@@ -14,14 +16,16 @@ export default class Calculator extends Component {
         this.maxCharsInput = 20;
     }
 
+
     addChar(char) {
         if (this.state.displayInput.length<=this.maxCharsInput) {
             this.setState({displayInput: this.state.displayInput + char});
         } else {
             console.log('You cannot reach '+ this.maxCharsInput +' chars in input.')
         }
-
     }
+
+
 
     summarize() {
         let displayOutput = ''
