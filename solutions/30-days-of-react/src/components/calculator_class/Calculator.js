@@ -11,22 +11,25 @@ export default class Calculator extends Component {
             displayInput: '',
             displayOutput: '',
         }
-
+        this.maxCharsInput = 20;
     }
 
     addChar(char) {
-        console.log(this.state, char)
-        this.setState({ displayInput: this.state.displayInput + char });
+        if (this.state.displayInput.length<=this.maxCharsInput) {
+            this.setState({displayInput: this.state.displayInput + char});
+        } else {
+            console.log('You cannot reach '+ this.maxCharsInput +' chars in input.')
+        }
+
     }
 
     summarize() {
-        console.log('summarize')
         let displayOutput = ''
         try {
             displayOutput = eval(this.state.displayInput);
         } catch (err) {
             displayOutput = 'ERROR'
-            console.log(err)
+            console.warn(err)
         }
         this.setState({displayOutput: displayOutput})
     }

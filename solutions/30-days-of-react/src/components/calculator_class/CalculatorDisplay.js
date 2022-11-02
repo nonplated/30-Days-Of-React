@@ -8,7 +8,7 @@ export default class CalculatorDisplay extends Component {
         return (
             <div>
                 <div className="DisplayInput">{(this.props.data.displayInput === '' ? '0' : this.props.data.displayInput)}</div>
-                <div className="DisplayOutput">{this.props.data.displayOutput}</div>
+                <div className="DisplayOutput">{this.props.data.displayOutput.toString().slice(0,15)}</div>
             </div>
         )
     }
